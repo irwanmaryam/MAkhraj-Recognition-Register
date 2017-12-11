@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/navi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="56dp"
+        android:text="Click Here To Register"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/navi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:text="Welcome To"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:text="Makhraj Recognition Application"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+
+
+
+</RelativeLayout>
